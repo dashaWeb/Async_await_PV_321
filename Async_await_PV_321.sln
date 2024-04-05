@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async_await", "Async_await\Async_await.csproj", "{D0E3683D-1760-4C9A-AEF3-08733519B48C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async_await", "Async_await\Async_await.csproj", "{D0E3683D-1760-4C9A-AEF3-08733519B48C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCar", "DataCar\DataCar.csproj", "{96CE7FF6-DA38-4253-A90E-853CCB11ADA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataCar", "DataCar\DataCar.csproj", "{96CE7FF6-DA38-4253-A90E-853CCB11ADA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarUi", "CarUi\CarUi.csproj", "{857EAFB2-5DC9-451F-B465-AE8E015F6C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarUi", "CarUi\CarUi.csproj", "{857EAFB2-5DC9-451F-B465-AE8E015F6C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopy", "FileCopy\FileCopy.csproj", "{5347E00A-EF6D-4EBF-8CDE-4E69E5152D6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{857EAFB2-5DC9-451F-B465-AE8E015F6C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{857EAFB2-5DC9-451F-B465-AE8E015F6C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{857EAFB2-5DC9-451F-B465-AE8E015F6C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5347E00A-EF6D-4EBF-8CDE-4E69E5152D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5347E00A-EF6D-4EBF-8CDE-4E69E5152D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5347E00A-EF6D-4EBF-8CDE-4E69E5152D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5347E00A-EF6D-4EBF-8CDE-4E69E5152D6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

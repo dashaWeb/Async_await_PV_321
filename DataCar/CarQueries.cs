@@ -35,7 +35,9 @@ namespace DataCar
 
             for (int i = 0; i < count; i++)
             {
-                cars.Add(await GetRandomCar());
+                var car = await GetRandomCar();
+                car.Id = 0;
+                cars.Add(car);
             }
             ctx.Cars.AddRange(cars);
 
